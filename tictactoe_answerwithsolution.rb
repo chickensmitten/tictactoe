@@ -30,7 +30,7 @@ end
 
 def computer_picks_square(board)
   position = empty_positions(board).sample
-  b[position] = 'O'
+  board[position] = 'O'
 end
 
 def check_winner(board)
